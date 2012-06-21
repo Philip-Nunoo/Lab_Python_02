@@ -1,0 +1,29 @@
+#Philip Afful Nunoo
+#Lab 02: Control Structures I
+
+#Part I:
+question 1:
+	a. x = 2 and y = 5?  x is  2
+	b. x = 3 and y = 1?  Nothing
+	c. x = 1 and y = 1?  x is  1
+	d. x = 4 and y = 3?  z is  7
+
+question 2:
+	a. If x=3 and y = 5 then Y is equal to :  1
+	b. If x=3 and y = 5 then Y is equal to :  1
+
+question 3:
+	Output  1 :  2
+	Output  2 :  4
+	Output  3 :  6
+	Output  4 :  8
+	Output  5 :  10
+
+	Number of times is :  10
+
+question 4:
+	Nothing initially not greater than zero
+
+
+#Part II
+question 5:
