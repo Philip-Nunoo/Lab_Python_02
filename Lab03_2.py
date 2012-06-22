@@ -1,34 +1,25 @@
 #Philip Afful Nunoo
 print "Philip Afful Nunoo"
 
-number = input("Please enter number: ")
+inputedNumber = raw_input("Please enter number: ")
 
-number = int(number)
-
-digit = 0
 reversednumber = 0
-count = number;
+number =""
 
+#since the inputedNumber is in its raw form
+#each digit can be obtained in form ie ((int(n)%10 + 7) % 10)
+#the final string value is then converted into integer ie. count = int(number)
+
+for n in inputedNumber:
+    number = number + str((((int(n)%10)+7) % 10))
+print number
+
+count = int(number)
 while (count != 0):
     reversednumber *= 10
     reversednumber += + (count%10)
     count = count /10
+print reversednumber
 
-print "The reversed form of {",number,"} is ", reversednumber
-
-count = reversednumber
-while (count != 0):
-    digit *= 10
-    digit += ((count %10 +7) % 10)
-    count = count/10
-    
-print "The {",number,"} is for encryption is ",digit 
-
-count = digit
-reversednumber = 0
-while (count != 0):
-    reversednumber *= 10
-    reversednumber += + (count%10)
-    count = count /10
-
-print "The encrypted form of {",number,"} is ", reversednumber
+print "The {",inputedNumber,"} for encryption is    : ",number 
+print "The encrypted form of {",inputedNumber,"} is : ",reversednumber
